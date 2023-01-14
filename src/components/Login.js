@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 function Login() {
     const Container = styled.div`
-        @media (min-width: 1200px) {
+        @media (min-width: 768px) {
             float: right;
             box-shadow: 0px 10px 40px 0px #00000029;            ;
             margin-top: 2%;
@@ -17,7 +17,7 @@ function Login() {
         font-family: 'Poppins', sans-serif;
         text-align: center;
         font-weight: 700;
-        @media (min-width: 1200px) {
+        @media (min-width: 768px) {
             padding-top: 15%;
         }
         `;
@@ -56,7 +56,7 @@ function Login() {
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         margin-top: 3%;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
         `;
     const Div = styled.div`
         margin-top: 10px;

@@ -4,7 +4,7 @@ import Styled from 'styled-components';
 
 function Image() {
     const Img = Styled.img`
-        @media (min-width: 1200px) {
+        @media (min-width: 768px) {
             height: 80%;
             width: 35%;
             object-fit: cover;
@@ -12,7 +12,7 @@ function Image() {
             margin-top: 2%;
             margin-left: 2%;
         }
-        @media (max-width: 1200px) {
+        @media (max-width: 768px) {
             display: none;
         }
     `;
